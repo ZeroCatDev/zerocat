@@ -1,4 +1,4 @@
-FROM node:20.19.0
+FROM node:20.19.2
 LABEL author=wuyuan
 COPY . /
 RUN npm install
